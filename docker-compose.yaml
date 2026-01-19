@@ -11,7 +11,7 @@ services:
       - flask
 
   flask:
-    image: "alex/flask:1.0"
+    # image: "alex/flask:1.0"
     build: .
     container_name: flask
     env_file:
